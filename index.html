@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>
+            Stop-Watch
+        </title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div id="container">
+        <div id="heading">Stop-Watch</div>
+        <div id="time"><div id="hr">00</div><div id="colon">:</div>
+        <div id="min">00</div><div id="colon">:</div><div id="sec">00</div></div>
+        <div id="buttons">
+        <button id="start" type="submit" onclick="start()">Start</button>
+        <button id="stop" type="submit" onclick="stop()">Stop</button>
+        <button id="reset" type="reset" onclick="reset()">Reset</button>
+        <button id="lap" type="submit" onclick="lap()">Lap</button>
+        </div>
+        <div id="show"></div>
+    </div>
+
+    <script src="watch.js"></script>
+</body>
+</html>
